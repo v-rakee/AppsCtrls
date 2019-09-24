@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WarehouseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Warehouse.dbo.tbl_ProductMaster' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ProductMaster">
+          <Property Name="Id" Type="nvarchar" MaxLength="255" />
+          <Property Name="BusinessUnitCode" Type="nvarchar" MaxLength="255" />
+          <Property Name="BusinessUnitName" Type="nvarchar" MaxLength="255" />
+          <Property Name="ItemLegalName" Type="nvarchar" MaxLength="255" />
+          <Property Name="ItemName" Type="nvarchar" MaxLength="255" />
+          <Property Name="LanguageCode" Type="nvarchar" MaxLength="255" />
+          <Property Name="LanguageName" Type="nvarchar" MaxLength="255" />
+          <Property Name="PartNumber" Type="nvarchar" MaxLength="255" />
+          <Property Name="Price" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Warehouse.dbo.tbl_ProductTarget' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ProductTarget">
+          <Property Name="Id" Type="nvarchar" MaxLength="255" />
+          <Property Name="BusinessUnitCode" Type="nvarchar" MaxLength="255" />
+          <Property Name="BusinessUnitName" Type="nvarchar" MaxLength="255" />
+          <Property Name="ItemLegalName" Type="nvarchar" MaxLength="255" />
+          <Property Name="ItemName" Type="nvarchar" MaxLength="255" />
+          <Property Name="LanguageCode" Type="nvarchar" MaxLength="255" />
+          <Property Name="LanguageName" Type="nvarchar" MaxLength="255" />
+          <Property Name="PartNumber" Type="nvarchar" MaxLength="255" />
+          <Property Name="Price" Type="nvarchar" MaxLength="255" />
+        </EntityType>-->
+  <EntityContainer Name="WarehouseModelStoreContainer" />
+</Schema>
